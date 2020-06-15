@@ -28,6 +28,7 @@ class Author
     authors_posts
   end 
   
-  def post_count 
-    
+  def self.post_count 
+    self.all.count 
+  end 
 end
