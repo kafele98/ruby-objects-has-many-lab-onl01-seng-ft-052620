@@ -15,7 +15,7 @@ class Post
     if self.author
       self.author.name
     else
-      "Author not found!"
+      nil
     end
   end
 
