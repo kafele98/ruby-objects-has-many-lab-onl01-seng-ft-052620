@@ -31,5 +31,5 @@ class Artist
 end
 
 
-adele = Artist.new("Adele")
+adele= Artist.new("Adele")
 adele.add_song("Hello")
